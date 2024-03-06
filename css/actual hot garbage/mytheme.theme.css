@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@100;300;400;500;700&display=swap');
+@import url('https://maendisease.github.io/Outlook/Outlook.css');
+@import url('https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css');
+
+:root {
+  --home-image: url('https://wallpapers.com/images/hd/purple-anime-sky-iphone-012d1f06heanv37x.jpg');
+  --accent-hue: 270;
+  --accent-saturation: 100%;
+  --accent-brightness: 81%;
+  --gradient-toggle: 1;
+  --gradient-hue-shift: 3.48;
+  --gradient-saturation: 100%;
+  --gradient-deg: 165deg;
+  --customFont: Ubuntu;
+}
+
+/* Any custom CSS below here */
+
+

@@ -1,0 +1,129 @@
+:root {
+    /*colors*/
+    --bluee: rgb(3, 111, 212);
+    --gren: #1f842d;
+    --grentrans: #1f842db0;
+    --reed: #ed4443;
+    --flashytext: #39ea49;
+    /*gradients*/
+    --background-main: linear-gradient(155deg, #00b7ff46, #0085b946,#0e1c2b6e,#0f12156e,#0e1c2b6e,#0085b946, #0060867a);
+    --bgm: linear-gradient(130deg, #000000c8, #2a2a2ac8, #53636dc8, #bee1ff18);
+    --grad: linear-gradient(130deg, #000000c8, #2a2a2ac8, #53636dc8, #bee1ff18);
+    /*transparency*/
+    --transfull: transparent;
+    --background-primary: transparent;
+    --background-secondary: transparent;
+    --background-secondary-alt: transparent;
+    --background-floating: transparent;
+    --bg-backdrop: var(--grad);
+    --bg-overlay-3:var(--blacktrans);
+    --bg-base-primary: transparent;
+    --bg-base-secondary: transparent;
+    --bg-base-tertiary: transparent;
+    --opbg: transparent;
+    /*sizes*/
+    --bgs: 200% 200%;
+    --title-margin: -20px;
+    --title-button-margin: 20px;
+    --title-button-right: 10px;
+    /*overlay & backgrounds*/
+    --channeltextarea-background:var(--transfull);
+    --blacktrans: rgba(0, 0, 0, 0.4);
+    --blacktrans2: rgba(0, 0, 0, 0.2);
+    --blacktrans3: rgba(0, 0, 0, 0.075);
+    --whitetrans: rgba(255, 255, 255, 0.4);
+    --whitetrans2: rgba(255,255,255,0.1);
+    --whitetrans3: rgba(255, 255, 255, 0.075);
+    /*discords "rules"*/
+    --primary-630:var(--transfull);
+    --background-tertiary: var(--background-main);
+    --brand-experiment: rgba(2, 142, 20, 0.763);
+    --scrollbar-auto-thumb: var(--white);
+    --scrollbar-auto-track: var(--blacktrans2);
+    --scrollbar-thin-thumb: var(--white);
+    --scrollbar-thin-track: var(--transfull);
+}
+
+@keyframes bgAni { 0% {background-position: 0% 100%;} 50% {background-position: 94% 7%;} 100% {background-position: 2% 98%;}}
+@keyframes flashy { 0% {opacity:15%;transform:scale(1);} 50% {opacity: 100%;transform:scale(1.3);} 100% {opacity:15%;trasnform:scale(1);}}
+
+[class^=bg_] {
+  background-image:var(--background-main)!important;
+  animation: bgAni 7s ease-in-out infinite;
+  background-size: 175% 100%;} /* You can use any GIF/PNG/JPEG Link */ /* Adjust if needed (depending on media used) */
+
+
+/*body round*/
+html, body, #app-mount { border-radius: 16px; }
+/*buttons--------------------------*/
+.vc-channeltabs-tab-container { width: calc(100vw - 125px); }
+/*close----------------------------*/
+[aria-label^="Close"] > svg:hover { -webkit-transform: scale(1.6); transform: scale(1.6); transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out; background-color: #f97a7a !important; }
+[aria-label^="Close"] > svg { -webkit-transform: scale(1.3); transform: scale(1.3); transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out; background-color: #f25056 !important; background-size: cover !important; border: 1px rgba(75, 75, 75, 0.8) solid; border-radius: 25px; }
+[aria-label^="Close"] > svg > polygon { display: none; }
+[aria-label^="Close"] { background: none !important; right: var(--title-button-right); margin-top: 4px; }
+/*minimise----------------------------*/
+[aria-label^="Minimise"] > svg:hover { -webkit-transform: scale(1.6); transform: scale(1.6); transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out; background-color: #fbe096 !important; }
+[aria-label^="Minimise"] > svg { -webkit-transform: scale(1.3); transform: scale(1.3); transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out; background-color: #fac536 !important; background-size: cover !important; border: 1px rgba(75, 75, 75, 0.8) solid; border-radius: 25px; }
+[aria-label^="Minimise"] > svg > rect { display: none; }
+[aria-label^="Minimise"] { background: none !important; right: var(--title-button-right); margin-top: 4px; }
+/*maximise----------------------------*/
+[aria-label^="Maximise"] > svg:hover { -webkit-transform: scale(1.6); transform: scale(1.6); transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out; background-color: #85fb8f !important; }
+[aria-label^="Maximise"] > svg { -webkit-transform: scale(1.3); transform: scale(1.3); transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out; background-color: var(--gren) !important; background-size: cover !important; border: 1px rgba(75, 75, 75, 0.8) solid; border-radius: 25px; }
+[aria-label^="Maximise"] > svg > rect { display: none; }
+[aria-label^="Maximise"] { background: none !important; right: var(--title-button-right); margin-top: 4px; }
+/*titlebar----------------------------*/
+/*CHANNELTABS*/
+.vc-channeltabs-bookmark-container { min-height: var(--closedd) !important; -webkit-transition: 0.1s ease-in-out; -o-transition: 0.1s ease-in-out; transition: 0.1s ease-in-out; }
+.vc-channeltabs-bookmark-container:hover { min-height: var(--openn); -webkit-transition: 0.1s ease-in-out; -o-transition: 0.1s ease-in-out; transition: 0.1s ease-in-out; }
+.vc-channeltabs-container { -webkit-box-shadow: var(--guild-header-text-shadow); box-shadow: var(--guild-header-text-shadow); }
+.vc-channeltabs-separator { background: var(--blacktrans); -webkit-box-shadow: var(--elevation-high); box-shadow: var(--elevation-high); width: 101%; margin-left: -5px; min-height: 0px; border-radius: 50px; margin-top: -2px; }
+.vc-channeltabs-tab { border-top-left-radius: 8px; border-top-right-radius: 8px; margin-left: 16px; background-color: var(--blacktrans); }
+.vc-channeltabs-tab-selected{ background-color: var(--grentrans);}
+/*VC PIP WINDOW*/
+:root { --bradius: 22px; }
+.background__3b30f { background-color: var(--transfull); border-radius: var(--bradius); }
+.pictureInPictureVideo_f1081d { resize: both !important; background: var(--transfull); border-radius: var(--bradius); -webkit-box-shadow: none; box-shadow: none; }
+.pictureInPictureWindow_dc49a8.elevationHigh__80ea8.borderRadius__3965c { border-radius: var(--bradius); -webkit-box-shadow: none; box-shadow: none; }
+/*VC BUTTONS*/
+.controlButton_ab2899.contextMenuContainer_fc4df6 button > div{border:white 1px solid;border-radius: 50px;}
+.colorable_c84c4c.primaryDark__6b700{background:var(--whitetrans2);}
+.colorable_c84c4c.primaryDark__6b700
+/*WHITE SCROLL BARS*/ /*keeps the scroll bars white, so I can see them */
+.auto_a48086::-webkit-scrollbar-thumb { background-color: white !important; }
+.thin_b1c063::-webkit-scrollbar-thumb { border: none; border-radius: 12px; background-color: white !important; }
+/*CHAT AREA*/
+
+/*NEW UNREADS*/
+.mention__1afd3 { animation: flashy 0.75s ease-in-out infinite;}
+.bar__004d9 { background-color: #0072b4a5; border-radius: 5px; }
+/*RESIZE GIF DRAWER*/
+div.drawerSizingWrapper__30274 { height: 80vh; bottom: 0px; right: 5px; width: 600px; /* 498px-599px = 2 ROWS || 600px-799px = 3 ROWS || 800px-999px = 4 ROWS || 1000px< = get fucking help */ }
+/*99 new messages since 69:69 Mark as Read*/
+.newMessagesBar__8b6d7 > .barButtonAlt__4b48f { display: none; }
+.barBase__4e0ba, .newMessagesBar__8b6d7.barBase_4e0ba { width: -webkit-fit-content; width: -moz-fit-content; width: fit-content; margin-left: auto; }
+/*Chat Text Placeholder*/
+.placeholder_e68c63, .textAreaSlate_e0e383 div { color: white; }
+.modeUnread_f74c03 .name__8d1ec { color: var(--reed); }
+/*Channels*/
+.sidebar_ded4b5 { width: 115px; -webkit-transition: 0.55s ease-in-out; -o-transition: 0.55s ease-in-out; transition: 0.55s ease-in-out; }
+.sidebar_ded4b5:hover { width: 210px; -webkit-transition: 0.55s ease-in-out 0.075s; -o-transition: 0.55s ease-in-out 0.075s; transition: 0.55s ease-in-out 0.075s; }
+/*USer Area NAme*/
+.nameTag__0e320 > .panelTitleContainer__7a748 { display: none; }
+.nameTag__0e320 > .panelSubtextContainer_f28bed > div { font-weight: 700; font-size: 18px; padding-top: 2px; height: 100%; }
+.container_b2ce9c:hover { width: 260px; }
+.container_b2ce9c { margin-left: -4px; width: 60px; -webkit-transition: 1.5s ease 0.075s; -o-transition: 1.5s ease 0.075s; transition: 1.5s ease 0.075s; }
+/*member count*/
+#vc-membercount { opacity: 0; -webkit-transition: 1.45s ease 0.075s; -o-transition: 1.45s ease 0.075s; transition: 1.45s ease 0.075s; }
+.container_b2ce9c:hover #vc-membercount { opacity: 1; -webkit-transition: 1.45s ease-in-out 0.075s; -o-transition: 1.45s ease-in-out 0.075s; transition: 1.45s ease-in-out 0.075s; }
+/*member card content*/
+.content_a6999d { opacity: 0; -webkit-transition: 1.15s ease 0.075s; -o-transition: 1.15s ease 0.075s; transition: 1.15s ease 0.075s; }
+.container_b2ce9c:hover .content_a6999d { opacity: 1; -webkit-transition: 1.15s ease-in-out 0.075s; -o-transition: 1.15s ease-in-out 0.075s; transition: 1.15s ease-in-out 0.075s; }
+/*Add Reaction Button*/
+#message-add-reaction-0{
+  order:999;
+}
+/*Delete Message Button*/
+#message-delete{
+  transform:scaleY(0.6);
+}

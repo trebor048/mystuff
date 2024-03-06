@@ -1,0 +1,572 @@
+/**
+ * @name 00-LUCKY's THEME - temporary
+ * @description LUCKY's FULL THEME - temporary
+ * @author LuckyCanucky
+ * @version 1.0
+ * @authorId 995923917594173440
+ * @invite highndry
+ * @donate https://www.discord.com/invite/highndry
+ * @patreon https://www.discord.com/invite/highndry
+ * @website https://github.com/trebor048
+ * @source https://github.com/trebor048/discordddd/tree/main/themes/discord.css
+ * @updateUrl https://github.com/trebor048/discordddd/tree/main/themes/discord.css
+ */
+
+/* ----------------------------------------------------------------------- */
+/*
+███████╗    ███╗   ███╗     ██████╗     ██╗  ██╗    ███████╗    
+██╔════╝    ████╗ ████║    ██╔═══██╗    ██║ ██╔╝    ██╔════╝    
+███████╗    ██╔████╔██║    ██║   ██║    █████╔╝     █████╗      
+╚════██║    ██║╚██╔╝██║    ██║   ██║    ██╔═██╗     ██╔══╝      
+███████║    ██║ ╚═╝ ██║    ╚██████╔╝    ██║  ██╗    ███████╗    
+╚══════╝    ╚═╝     ╚═╝     ╚═════╝     ╚═╝  ╚═╝    ╚══════╝    
+                                                                
+███╗   ███╗    ███████╗    ████████╗    ██╗  ██╗                
+████╗ ████║    ██╔════╝    ╚══██╔══╝    ██║  ██║                
+██╔████╔██║    █████╗         ██║       ███████║                
+██║╚██╔╝██║    ██╔══╝         ██║       ██╔══██║                
+██║ ╚═╝ ██║    ███████╗       ██║       ██║  ██║                
+╚═╝     ╚═╝    ╚══════╝       ╚═╝       ╚═╝  ╚═╝                
+                                                                
+   ██╗                                                          
+   ██║                                                          
+████████╗                                                       
+██╔═██╔═╝                                                       
+██████║                                                         
+╚═════╝                                                         
+                                                                
+██╗  ██╗     █████╗     ██╗    ██╗                              
+██║  ██║    ██╔══██╗    ██║    ██║                              
+███████║    ███████║    ██║    ██║                              
+██╔══██║    ██╔══██║    ██║    ██║                              
+██║  ██║    ██║  ██║    ██║    ███████╗                         
+╚═╝  ╚═╝    ╚═╝  ╚═╝    ╚═╝    ╚══════╝                         
+                                                                
+███████╗     █████╗     ████████╗     █████╗     ███╗   ██╗     
+██╔════╝    ██╔══██╗    ╚══██╔══╝    ██╔══██╗    ████╗  ██║     
+███████╗    ███████║       ██║       ███████║    ██╔██╗ ██║     
+╚════██║    ██╔══██║       ██║       ██╔══██║    ██║╚██╗██║     
+███████║    ██║  ██║       ██║       ██║  ██║    ██║ ╚████║     
+╚══════╝    ╚═╝  ╚═╝       ╚═╝       ╚═╝  ╚═╝    ╚═╝  ╚═══╝     
+*/
+
+@import url("https://raw.githubusercontent.com/sahibjotsaggu/San-Francisco-Pro-Fonts/master/SF-Pro.ttf");
+@import url("https://lazuee.github.io/css-snippets/discord/member-list/import.css");
+@import url(https://raw.githubusercontent.com/trebor048/discordddd/main/themes/serverlist.css);
+@import url(https://raw.githubusercontent.com/trebor048/discordddd/main/themes/windowButtons.css);
+@import url(https://raw.githubusercontent.com/trebor048/discordddd/main/themes/dimSideStuff-ChannelResizer.css);
+@import url(https://raw.githubusercontent.com/trebor048/discordddd/main/themes/RadialStatus.css);
+@import url(https://raw.githubusercontent.com/trebor048/discordddd/main/themes/chatBar.css);
+@import url(https://raw.githubusercontent.com/trebor048/discordddd/main/themes/SettingsModal.theme.css);
+/*@import url(https://raw.githubusercontent.com/trebor048/discordddd/main/themes/SettingsSidebar.theme.css);*/
+@import url(https://raw.githubusercontent.com/trebor048/discordddd/main/themes/settignsButtonsandStuff.css);
+/*@import url(//dablulite.github.io/css-snippets/BDSettingsv2/import.css);*/
+/*@import url(//dablulite.github.io/css-snippets/UserReimagined/import.css);*/
+/*@import url(//dablulite.github.io/css-snippets/HorizontalServerList/unified-import.css);*/
+/*@import url(//dablulite.github.io/css-snippets/ConsistentChatbar/import.css);*/
+/*@import url(//dablulite.github.io/SegmentationBlurple/import.css);
+@import url(//dablulite.github.io/css-snippets/BetterTitlebar/import.css);*/
+/*@import url(//dablulite.github.io/css-snippets/BetterModals/import.css);*/
+/*@import url(//dablulite.github.io/css-snippets/BetterAuthApps/import.css);*/
+/*@import url(//dablulite.github.io/css-snippets/AccountDetailsGrid/import.css);*/
+/*@import url(//dablulite.github.io/css-snippets/VesktopMica/import.css);*/
+/*@import url(//dablulite.github.io/css-snippets/UserReimagined/import.css);
+/*@import url(//dablulite.github.io/css-snippets/ConsistentChatbar/import.css);*/
+/*@import url(https://raw.githubusercontent.com/maenDisease/Float/main/src/core/_root.scss);*/
+/*@import url(https://discordstyles.github.io/Addons/windows-titlebar.css);*/
+/*@import url(https://raw.githubusercontent.com/trebor048/discordddd/main/themes/mactitlebar.css);*/
+#oneko {
+  background-image: url("https://raw.githubusercontent.com/trebor048/discordddd/main/themes/pipe.png") !important;
+  z-index: 99999;
+}
+
+/* ----------------------------------------------------------------------- */
+
+/*WINDOW CLOSE BUTTONS*/
+
+/* ----------------------------------------------------------------------- */
+
+:root {
+  --mactitlebar-left-margin: 7px;
+  --mactitlebar-top-margin: 10px;
+  --mactitlebar-button-width: 20px;
+  --mactitlebar-button-height: 20px;
+  --mactitlebar-button-border-radius: 50px;
+  --mactitlebar-close-btn-back: #f25056;
+  --mactitlebar-min-btn-back: #fac536;
+  --mactitlebar-max-btn-back: #39ea49;
+  --macbuttons-serverlist-inner-top-margin: 32px;
+  --macbuttons-serverlist-outer-top-margin: 0;
+  --macbuttons-serverlist-outer-height: 100%;
+}
+
+
+/*~~~~~~~~~~~xxx~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*~~~~~~~~~~~xxx~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+:root {
+	--settingsmodalbackground: 	transparent;			/* default:	transparent		(lowest bg color of changed windows, change it in case another theme turns them transparent)	*/
+	--settingsmodalwidth: 		70vw;					/* default:	960px			(width of the settings modal, px/vw)															*/
+	--settingsmodalheight: 		80vh;					/* default:	80vh			(height of the settings modal, px/vh)					*/
+  }										
+
+
+
+/* ----------------------------------------------------------------------- */
+/*SCROLL BARS*/ /*keeps the scroll bars white, so i can fucking see them */
+/* ----------------------------------------------------------------------- */
+.auto_a48086::-webkit-scrollbar-thumb {
+  background-color: #ffffff9c;
+  border-radius: 7px;
+}
+.thin_b1c063::-webkit-scrollbar-thumb {
+  border: none;
+  border-radius: 7;
+  background-color: #ffffff9c;
+}
+/*~~~~~~~~~~~xxx~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*~~~~~~~~~~~xxx~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+/* ----------------------------------------------------------------------- */
+/*COLOR ON/OFF SWITCHES GREEN/RED*/
+/* ----------------------------------------------------------------------- */
+/*
+.container-2nx-BQ:not(.checked-25WXMf) {background-color: #f04747 !important;}
+.container-2nx-BQ:not(.checked-25WXMf) path {fill: #f04747 !important;}
+.container-2nx-BQ.checked-25WXMf {background-color: #43b581 !important;}
+.container-2nx-BQ.checked-25WXMf path {fill: #43b581 !important;}
+*/
+/*~~~~~~~~~~~xxx~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*~~~~~~~~~~~xxx~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+/* ----------------------------------------------------------------------- */
+/*CONTEXT MENU'S*/
+/* ----------------------------------------------------------------------- */
+/*
+.menu_dc52c6, .base__3e6af, .header__60bef, #app-mount, .chatContent__5dca8  {background: linear-gradient(145deg, #ffffff -260%, #0c2b47);border: 2px solid #000000;border-radius: 15px;}
+*/
+/*~~~~~~~~~~~xxx~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*~~~~~~~~~~~xxx~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+:root{
+  --the-borders:30px;
+}
+
+/* Like a window */
+#app-mount .layers__1c917 {
+    margin-top: 26px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-bottom-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+}
+#app-mount .layers__1c917 {
+    border: var(--the-borders);
+    border-radius: var(--the-borders);
+    border-top: 0 !important;
+    box-shadow: var(--elevation-high);
+}
+#app-mount .withFrame__485f4 {
+    background: var(--drag-background);
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 0px;
+    min-height: 22px;
+    border: var(--the-borders);
+    width:100%;
+    flex-direction: row-reverse;
+}
+
+/* ARMCord */
+.titlebar {
+    overflow: inherit;
+    background-color: #20222500;
+}
+
+.titlebar #window-controls-container {
+    background-color: #ffffff00;
+    margin-top: 0px;
+    margin-right: 37px;
+}
+.titlebar #window-title {
+    display: none;J:\Customization\cursors
+}
+
+
+.bg__12180{background:url(https://i.imgur.com/4iXQHua.png);background-size:cover;}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------- */
+/*https://raw.githubusercontent.com/trebor048/discordddd/main/themes/fontsSettings.css*/
+/*FONT SETTINGS*/ /*REPALCE THE fonts.google link with a font from fonts.google.com theyve got a great selection.*/
+/* ----------------------------------------------------------------------- */
+@font-face {
+  src: url("https://raw.githubusercontent.com/trebor048/discordddd/main/fonts/SF-Pro-Rounded-Light.ttf");
+  font-family: "SF Pro Rounded";
+  font-style: normal;
+  font-weight: 100;
+}
+
+:root {
+  --line-spacing: var(--message-line-spacing);
+}
+/* Apply styles */
+::-webkit-input-placeholder,
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "SF Pro Rounded", sans-serif !important;
+  word-spacing: var(--word-spacing, initial);
+  letter-spacing: var(--letter-spacing, initial);
+}
+/*Adjust formatted text line-height 
+  [class*="messageContent-" i] {
+      line-height: var(--message-line-spacing, initial) !important;
+  }
+  */
+/* Scale up timestamps & "Edited" text */
+
+[class*="group-spacing" i] [class*="timestamp"],
+[class*="messageContent-" i] time {
+  font-size: 0.8rem;
+}
+/* FONT SIZE VARIABLES */
+
+:root {
+  --word-spacing: unset;
+  --letter-spacing: unset;
+  --message-line-spacing: unset;
+}
+/*~~~~~~~~~~~xxx~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*~~~~~~~~~~~xxx~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------- */
+/*https://raw.githubusercontent.com/trebor048/discordddd/main/themes/dimSideStuff-ChannelResizer.css*/
+/*DIM CHANNELS-SERVER LIST-MEMBER LIST */
+/* ----------------------------------------------------------------------- */
+:root {
+  --dim-channels: 90%;
+  --dim-members: 90%;
+  --dim-serverlist: 90%;
+  --dim-dms: 100%;
+}
+/* dimmed channel list */
+.link__95dc0 {
+  opacity: var(--dim-channels);
+}
+/* dimmed member list */
+.members__9f47b {
+  opacity: var(--dim-members);
+}
+/* dimmed server list */
+.scroller__3d071 {
+  opacity: var(--dim-serverlist);
+}
+/* dimmed dms */
+.scroller__4b984 > ul {
+  opacity: var(--dim-dms);
+}
+/*~~~~~~~~~~~xxx~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*~~~~~~~~~~~xxx~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/*CHANNEL CATEGORYS BIGGER*/ /*Channel Highlighter/Resizer*/
+/*CHANNEL CATEGORYS BIGGER*/
+.container_de798d {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+/*Channel Highlighter/Resizer*/
+.containerDefault__3187b,
+.wrapper__7bcde,
+.name__8d1ec {
+  padding-bottom: 3px;
+  border-radius: 8px;
+  font-size: 105%;
+}
+div.unread__48cf4.unreadRelevant__44f9e {
+  background-color: white;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  width: 5px;
+}
+.modeUnread_f74c03,
+.unread__48cf4-VSK {
+  background-color: #0072b45e;
+  border-radius: 8px;
+  padding: 0px;
+}
+
+/*NEW UNREADS*/
+.bar__004d9{background-color:#0072b4a5;border-radius: 5px;}
+
+/* ----------------------------------------------------------------------- */
+/*CHANNEL HIDER*/
+/* ----------------------------------------------------------------------- */
+/*
+.sidebar_ded4b5{transition:.065s ease .075s;width:0px;min-width:0px;resize:none;background-color: #054e79;}.sidebar_ded4b5 .container_d667ff,.sidebar_ded4b5 .panel_bd8c76{padding:0;transition:.065s ease .075s}.sidebar_ded4b5 .button__4f306,.sidebar_ded4b5 .badge-3RBqXG{width:0;transition:.065s ease .075s}.sidebar_ded4b5 .searchBar_e4ea2a,.sidebar_ded4b5 .badge-3RBqXG{padding:0;transition:.065s ease .075s}.sidebar_ded4b5 .button-38aScr{padding:0;transition:.065s ease .075s}.sidebar_ded4b5 .icon-10cLkJ{opacity:0;transition:.065s ease-in-out .075s}.sidebar_ded4b5 .container_ca50b9 .button-38aScr,.sidebar_ded4b5 .container_ca50b9 .button__4f306{padding:unset;width:32px}.sidebar_ded4b5 .container_ca50b9>.flex_f5fbb7{opacity:0;pointer-events:none;transition:.065s ease-in-out .075s}.wrapper_a7e7a8:hover+.base__3e6af>.content__4bf10>.sidebar_ded4b5,.sidebar_ded4b5:hover{width:var(--channels-width)}.wrapper_a7e7a8:hover+.base__3e6af>.content__4bf10>.sidebar_ded4b5 .container_d667ff,.wrapper_a7e7a8:hover+.base__3e6af>.content__4bf10>.sidebar_ded4b5 .panel_bd8c76,.sidebar_ded4b5:hover .container_d667ff,.sidebar_ded4b5:hover .panel_bd8c76{padding:8px}.wrapper_a7e7a8:hover+.base__3e6af>.content__4bf10>.sidebar_ded4b5 .button__4f306,.sidebar_ded4b5:hover .button__4f306{width:32px}.wrapper_a7e7a8:hover+.base__3e6af>.content__4bf10>.sidebar_ded4b5 .searchBar_e4ea2a,.sidebar_ded4b5:hover .searchBar_e4ea2a{padding:0 10px}.wrapper_a7e7a8:hover+.base__3e6af>.content__4bf10>.sidebar_ded4b5 .button-38aScr,.sidebar_ded4b5:hover .button-38aScr{padding:2px 16px}.wrapper_a7e7a8:hover+.base__3e6af>.content__4bf10>.sidebar_ded4b5 .badge-3RBqXG,.sidebar_ded4b5:hover .badge-3RBqXG{padding:2px;width:14px}.wrapper_a7e7a8:hover+.base__3e6af>.content__4bf10>.sidebar_ded4b5 .icon-10cLkJ,.sidebar_ded4b5:hover .icon-10cLkJ{opacity:1}.wrapper_a7e7a8:hover+.base__3e6af>.content__4bf10>.sidebar_ded4b5 .container_ca50b9 .button__4f306,.sidebar_ded4b5:hover .container_ca50b9 .button__4f306{padding:unset;width:32px}.wrapper_a7e7a8:hover+.base__3e6af>.content__4bf10>.sidebar_ded4b5 .container_ca50b9>.flex_f5fbb7,.sidebar_ded4b5:hover .container_ca50b9>.flex_f5fbb7{pointer-events:auto;opacity:1}
+*/
+/*-------------------------------------------------------*/
+/*~~~~~~~~~~~xxx~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*~~~~~~~~~~~xxx~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------- */
+/*https://raw.githubusercontent.com/trebor048/discordddd/main/themes/RadialStatus.css*/
+/*Radial Status Indicators!*/
+/* ----------------------------------------------------------------------- */
+.contents_f41bb2 .avatar__08316 {
+  scale: 0.85;
+  margin-top: 0.1em;
+  box-shadow: 0 0 0 2px #747f8d;
+}
+.contents_f41bb2:has(svg[fill="var(--green-360"]) .avatar__08316 {
+  box-shadow: 0 0 0 2px #43b581;
+}
+.contents_f41bb2:has(svg[fill="var(--yellow-300"]) .avatar__08316 {
+  box-shadow: 0 0 0 2px #faa61a;
+}
+.contents_f41bb2:has(svg[fill="var(--red-400"]) .avatar__08316 {
+  box-shadow: 0 0 0 2px #f04747;
+}
+.contents_f41bb2:has(span[data-tag="bot"]) .avatar__08316 {
+  box-shadow: 0 0 0 2px #5865f2;
+}
+/*~~~~~~~~~~~xxx~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*~~~~~~~~~~~xxx~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+/* ----------------------------------------------------------------------- */
+/*SMOL PLATFORM INDICATORS*/
+/* ----------------------------------------------------------------------- */
+[class^="nameAndDecorator"] .vc-platform-indicator {
+  flex-direction: column;
+  margin-left: 2px !important;
+  margin-right: -2px;
+  max-height: 30px;
+}
+[class^="nameAndDecorator"] .vc-platform-indicator svg {
+  width: 16px;
+}
+[class^="nameAndDecorator"] .vc-platform-indicator :only-child {
+  height: 16px;
+}
+[class^="nameAndDecorator"] .vc-platform-indicator :nth-child(3) {
+  position: absolute;
+  height: 16px;
+  margin-left: 20px;
+}
+/*~~~~~~~~~~~xxx~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*~~~~~~~~~~~xxx~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+
+/* ----------------------------------------------------------------------- */
+/*chat bar and shit*/
+/* ----------------------------------------------------------------------- */
+.form__13a2c {
+  flex-direction: column-reverse;
+  display: flex;
+  align-self: center;
+  width: 98%;
+  padding-bottom: 8px;
+}
+.base__512ed {
+  position: sticky;
+  background-color: #00629b6c;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 6px;
+  align-self: center;
+  width: 98% !important;
+}
+.jumpToPresentBar__0ff7f {
+  background-color: #00000066;
+  align-content:center;
+  justify-content:center;
+  width:96%;
+  margin-left: 2%;
+  margin-right: 4%;
+  padding-right: 0%;
+  padding-left:0%;
+}
+.themedBackground__6b1b6 {
+  background-color: #0072b46a;
+  border-radius: 7px;
+}
+/*.typing__6fd1d{}*/
+/*
+.form__13a2c{padding:0px;margin-top:0px;border-radius: 0px;display: flex;flex-direction: column;}
+.scrollableContainer__33e06{height: 55px;margin-top:0px;margin-bottom: 0px;z-index:3;border-bottom-right-radius: 0px;border-bottom-left-radius:0px;}
+.channelTextArea__56a36{height:34px;border-radius: 0px;z-index: 1;}
+.a-1FufC0{machannelTextArergin-bottom: 0;border-radius: 0;}
+.typing__6fd1d{margin-right:90px;margin-left:35px;padding-right:8px;width:fit-content;justify-self:center;padding-bottom:42px;background:#054e79;;z-index: 0;border-top-left-radius: 15px;border-top-right-radius: 15px;}
+*/
+/*---------------------*/
+.newMessagesBar__8b6d7 {
+  height: 36px;
+  background-color: #0072b4a5;
+}
+.span_a7874a {
+  font-size: 160%;
+}
+.channelTextArea-1FufC,
+.channelTextArea__56a36 {
+  border-radius: 6px;
+}
+
+.wrapper_fbbb73 {
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 1.5px 0;
+}
+.form__13a2c::after {
+  padding: 0;
+  margin-top: 0;
+  display: flex;
+}
+.channelTextArea__2e60f {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.placeholder_e68c63 {
+  color: white;
+  text-transform: lowercase;
+}
+/*
+.base__512ed {
+  position: static;
+  width: 100%;
+  order: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0px;
+  box-sizing: border-box;
+}
+.base__512ed > .cooldownWrapper_de448f {
+  margin: 0;
+  position: static;
+}
+.scroller__1f96e {
+  position: static;
+}
+.scrollerSpacer__9cd32 {
+  height: 15px;
+}
+.scrollableContainer__33e06 {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  height: 50px;
+}*/
+.scrollableContainer__33e06 > .inner__9fd0b {
+  min-height: 45px;
+  align-items: center;
+}
+.attachWrapper__6354f {
+  display: flex;
+  position: static;
+  align-items: center;
+}
+.attachedBars_da3c74 {
+  border-radius: 0;
+}
+.slateTextArea-27tkG0 {
+  color: white !important;
+}
+/*~~~~~~~~~~~xxx~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*~~~~~~~~~~~xxx~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+/* ----------------------------------------------------------------------- */
+/*MESSAGE BACKGROUNDS*/
+/* ----------------------------------------------------------------------- */
+.message__80c10 {
+  margin-left: 5px;
+  border-radius: 7px;
+  background-color: #0000002a;
+}
+.mentioned__58017:before {
+  width: 100%;
+  border-radius: 7px;
+  background-color: #ffe55362;
+}
+/*#channels{background-color:#1e1f22;}*/
+.contents_f41bb2 .avatar__08316 {
+  left: 12px;
+}
+.cozy_f5c119 .contents_f41bb2 {
+  margin-left: -8px;
+  border-width: 4px;
+  border-left-style: groove;
+  border-radius: 3px;
+  border-color: rgba(255, 255, 255, 0.466);
+}
+.contents_f41bb2 > * {
+  left: 10px;
+}
+/*~~~~~~~~~~~xxx~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*~~~~~~~~~~~xxx~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+

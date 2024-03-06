@@ -1,0 +1,300 @@
+/**
+ * @name 0fuickingnigger
+ * @description LUCKY's serverlist
+ * @author LuckyCanucky
+ * @version 1.0
+ * @authorId 995923917594173440
+ * @invite highndry
+ * @donate https://www.discord.com/invite/highndry
+ * @patreon https://www.discord.com/invite/highndry
+ * @website https://github.com/trebor048
+ * @source https://github.com/trebor048/discordddd/tree/main/themes/serverlist.css
+ * @updateUrl https://github.com/trebor048/discordddd/tree/main/themes/serverlist.css
+ */
+
+:root {
+  --guild-list-width: 198px;
+  --guild-list-height: 48px;
+  --guild-item-radius: 5px;
+  --guild-item-spacing: 8px;
+  --guild-item-font-size: 16px;	
+}
+
+.guilds__2b93a {
+  width: var(--guild-list-width);
+}
+
+.listItem_fa7b36,
+.wrapper_ed1dea,
+.svg_ad7356,
+.blobContainer__5ee50,
+.listItem_fa7b36>.wrapper__3670f+div:not([class]),
+.wrapper__3af0b,
+.svg_ad7356>foreignObject {
+  width: var(--guild-list-width);
+  mask: none !important;
+}
+
+.listItem_fa7b36:not(:has(.guildSeparator_dcb3cc)),
+.wrapper__3af0b,
+.svg_ad7356>foreignObject {
+  height: var(--guild-list-height);
+}
+
+.expandedFolderBackground__1bec6 {
+  width: calc(var(--guild-list-width) - 24px);
+  border-radius: min(24px, var(--guild-item-radius));
+}
+
+.svg_ad7356>foreignObject {
+  transform: translateX(calc(((var(--guild-list-width)*-1)/2) + 50%));
+}
+
+.wrapper_d281dd,
+.folder__17546,
+.circleIconButton_d8df29 {
+  margin-left: 12px;
+  width: calc(var(--guild-list-width) - 24px);
+  justify-content: start;
+  border-radius: var(--guild-item-radius) !important;
+  height: var(--guild-list-height);
+}
+
+.wrapper_d281dd img,
+.folderIconWrapper__72239,
+.childWrapper__01b9c,
+.expandedFolderIconWrapper__458cf,
+.closedFolderIconWrapper__7321f {
+  border-radius: var(--guild-item-radius) !important;
+  height: var(--guild-list-height);
+  width: var(--guild-list-height);
+}
+
+.svg_ad7356 {
+  position: static;
+}
+
+[data-dnd-name]:has(>.wrapper__3af0b)::after {
+  content: attr(data-dnd-name);
+  width: calc(var(--guild-list-width) - 24px - var(--guild-list-height) - 12px);
+  position: absolute;
+  top: 0;
+  left: calc(12px + var(--guild-list-height) + 6px);
+  flex-wrap: nowrap;
+  align-items: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: var(--channels-default);
+  font-size: var(--guild-item-font-size);
+  line-height: var(--guild-list-height);
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  pointer-events: none;
+  transition: color .15s ease-out, background-color .15s ease-out;
+}
+
+[data-dnd-name]:has(>.wrapper__3af0b .selected_f5ec8e, >.wrapper__3af0b .hover__043de)::after {
+  color: var(--interactive-active);
+}
+
+:has(>.wrapper__3af0b .selected_f5ec8e, >.wrapper__3af0b .hover__043de) :is(.wrapper_d281dd, .folder__17546, .circleIconButton_d8df29) {
+  background-color: var(--background-primary) !important;
+}
+
+.wrapperSimple_a34580 {
+  border-radius: 0 !important;
+}
+
+.circleIcon__428dd {
+  margin-left: 12px;
+  height: var(--guild-list-height);
+}
+
+.circleIconButton_d8df29::after {
+  content: attr(aria-label);
+  width: calc(var(--guild-list-width) - 24px - var(--guild-list-height) - 12px);
+  position: absolute;
+  top: 0;
+  left: calc(12px + var(--guild-list-height) + 6px);
+  align-items: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: var(--green-360);
+  font-size: var(--guild-item-font-size);
+  line-height: var(--guild-list-height);
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: color .15s ease-out, background-color .15s ease-out;
+  pointer-events: none;
+}
+
+.circleIconButton_d8df29.selected__5250e::after,
+.ColorwaySelectorBtn:hover::after {
+  color: var(--interactive-active);
+}
+
+.wrapper_d281dd[data-list-item-id*="guildsnav___"]::after {
+  content: attr(aria-label);
+  width: calc(var(--guild-list-width) - 24px - var(--guild-list-height) - 12px);
+  position: absolute;
+  top: 0;
+  left: calc(12px + var(--guild-list-height) + 6px);
+  align-items: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: var(--channels-default);
+  font-size: var(--guild-item-font-size);
+  line-height: var(--guild-list-height);
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: color .15s ease-out, background-color .15s ease-out;
+  pointer-events: none;
+}
+
+.wrapper_d281dd[data-list-item-id*="guildsnav___"].selected_f5ec8e::after {
+  color: var(--interactive-active);
+}
+
+.colorwaySelectorIcon {
+  height: var(--guild-list-height) !important;
+  width: var(--guild-list-height) !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.ColorwaySelectorBtn {
+  position: relative;
+  width: calc(var(--guild-list-width) - 24px) !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  justify-content: start !important;
+  gap: 6px;
+  height: var(--guild-list-height) !important;
+}
+
+.ColorwaySelectorBtn::before {
+  content: "";
+  position: absolute;
+  background-color: var(--background-primary);
+  border-radius: var(--guild-item-radius);
+  height: var(--guild-list-height) !important;
+  width: var(--guild-list-height) !important;
+  transition: .15s ease-out;
+  left: 0;
+}
+
+.ColorwaySelectorBtn:hover::before {
+  background-color: var(--brand-experiment);
+}
+
+.ColorwaySelectorBtn::after {
+  content: "Colorways";
+  width: calc(var(--guild-list-width) - 24px - 48px - 12px);
+  position: absolute;
+  top: 0;
+  left: calc(6px + 48px);
+  align-items: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: var(--channels-default);
+  font-size: var(--guild-item-font-size);
+  line-height: var(--guild-list-height);
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: color .15s ease-out, background-color .15s ease-out;
+  pointer-events: none;
+}
+
+.wrapper_ed1dea>[id*="folder-items-"] {
+  height: fit-content !important;
+}
+
+.expandedFolderBackground__1bec6 {
+  height: 100%;
+}
+
+.upperBadge_c7cfb3,
+.lowerBadge__669e7 {
+  transform: translateX(-50%) !important;
+  box-shadow: 0 0 0 3px var(--background-floating);
+  border-radius: 50%;
+}
+
+.pill__13f64,
+.wrapper__3670f,
+.colorwaysBtnPill {
+  height: var(--guild-list-height) !important;
+  width:
+  align-items: center;
+}
+
+.item_f9d377 {
+  max-height: var(--guild-list-height);
+}
+
+.ColorwaySelectorBtn::after {
+  position: static;
+  height: unset !important;
+  line-height: var(--guild-list-height);
+  transform: translateX(6px);
+}
+
+.ColorwaySelectorBtn {
+  gap: 0 !important;
+}
+
+.circleIcon__428dd {
+  margin-left: 0;
+}
+
+.circleIcon__428dd {
+  width: var(--guild-list-height);
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: calc(var(--guild-list-height)/7);
+}
+
+.blobContainer__5ee50 .wrapper_d281dd[data-list-item-id*="guildsnav___"]::after {
+  content: none;
+}
+
+.listItem_fa7b36 {
+  margin: 0 0 var(--guild-item-spacing);
+}
+
+
+
+/*read all button*/
+.scroller__3d071 > button {
+  width: 91%;
+  background-color: #2b89c0 !important;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+
+/*=====================================================================*/
+
+.upperBadge_c7cfb3,.lowerBadge__669e7,.numberBadge__50328{box-shadow:0 0 0 0!important;}
+.iconBadge_fdf33a,.icon__92653{background-color: #1b6911;min-height: 22px;min-width: 24px;border-radius: 5px;}
+.icon__92653{padding:0px;}
+.baseShapeRound__95d0f{border-radius:5px;font-size:93%;min-height: 22px;min-width: 24px;}
+.unreadMentionsIndicatorBottom_fdb943, .unreadMentionsIndicatorTop_ada847{width:100%;}
+

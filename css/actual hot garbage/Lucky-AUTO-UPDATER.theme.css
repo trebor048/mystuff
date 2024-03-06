@@ -1,0 +1,36 @@
+/**
+ * @name Lucky's Theme *AUTO UPDATE*
+ * @description kneegrow
+ * @author LuckyCanucky
+ * @version 1.0
+ * @authorId 995923917594173440
+ * @invite highndry
+ * @donate https://www.discord.com/invite/highndry
+ * @patreon https://www.discord.com/invite/highndry
+ * @website https://github.com/trebor048
+ * @source https://github.com/trebor048/discordddd/tree/main/themes/windowButtons.css
+ * @updateUrl https://github.com/trebor048/discordddd/tree/main/themes/windowButtons.css
+ */
+
+
+@import url('https://raw.githubusercontent.com/trebor048/discordddd/main/themes/Lucky%20Updating%20Theme.css')
+
+/* COLORS */
+ :root{
+/*BACKGROUND COLOR*/
+  --BG-GRADIENT:linear-gradient(120deg, #283c79, #0e3e6e, rgb(29, 78, 111));
+/*ACCENT COLOR*/
+  --brand-experiment:rgb(0, 123, 255);
+/*SQUARE ICONS*/
+[class^="avatar-"], img.avatar__08316,svg.Avatar__mask > foreignObject {
+  mask: none!important;
+  border-radius: 20%; /* higher = more circle, lower = more square */
+}
+
+}
+
+/* ANIMATION */
+ @keyframes bg { 0%{background-position:0% 0%}25%{background-position:37% 88%}38%{background-position: 0% 0%;}50%{background-position:100% 100%;}76%{background-position: 0% 0%;}89%{background-position: 92% 66%;}100%{background-position:0% 0%}}
+
+
+
