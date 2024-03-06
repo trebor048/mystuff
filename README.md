@@ -1,7 +1,14 @@
 ```markdown
 # Comprehensive Resource List
 
-A meticulously organized collection of tools, projects, and websites, spanning various domains such as music and audio, Android and mobile development, browser extensions, web tools, and more.
+the stuff i enjoy and may or may not use
+
+
+
+
+
+
+
 
 ## Music and Audio
 - [OrpheusDL](https://github.com/OrfiTeam/OrpheusDL)
