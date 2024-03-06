@@ -72,9 +72,7 @@ A meticulously organized collection of tools, projects, and websites, spanning v
 ## Development Tools and Knowledge
 - [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - A collection of various resources for IT professionals.
 - [WinMerge](https://sourceforge.net/projects/winmerge/) - A tool for differencing and merging text files.
-- [Extensionizr](https://extensionizr.com/)
-
- - Quickly create the boilerplate for Chrome extensions.
+- [Extensionizr](https://extensionizr.com/) - Quickly create the boilerplate for Chrome extensions.
 - [FlowGPT](https://flowgpt.com/chat)
 - [AnyRec Image Upscaler](https://www.anyrec.io/image-upscaler/)
 - [Upscayl](https://github.com/upscayl/upscayl)
